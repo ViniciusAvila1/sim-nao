@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quer sair comigo?</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="loading-heart">
+        <span></span>
+      </div>
+      <h1>Bora sair para um date comigo?</h1>
+      <section>
+        <button class="btn btn-yes" onclick="accepted()">SIM</button>
+        <button
+          class="btn btn-no"
+          onclick="declined(this)"
+          onmouseover="declined(this)"
+        >
+          NÃO
+        </button>
+      </section>
+      <div id="animacao" class="animacao">👉👈</div>
+    </main>
+    <script src="script.js" defer></script>
+  </body>
+</html>
